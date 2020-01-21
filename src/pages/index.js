@@ -1,10 +1,11 @@
 import React from "react"
 import { Link } from "gatsby";
-
+import Layout from "../component/layout/skeleton";
 export default () => (
-<div>
-<h1>Hello Out there!</h1>
-<h3>Welcome to the gatsby-startup project</h3>
-<Link to="/about/">Go to about page</Link>
-</div>
+
+    <Layout>
+        <div>
+            This is the sub component
+        </div>
+    </Layout>
 )
